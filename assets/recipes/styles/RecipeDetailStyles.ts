@@ -1,0 +1,233 @@
+import { StyleSheet } from 'react-native';
+import { darkColors } from './HomeStyles';
+
+export const detailStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: darkColors.card,
+  },
+  hero: {
+    height: 300,
+    backgroundColor: darkColors.cardAlt,
+  },
+  heroImage: {
+    width: '100%',
+    height: '100%',
+  },
+  roundButton: {
+    position: 'absolute',
+    top: 50,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: 'rgba(0,0,0,0.45)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  closeButton: {
+    left: 16,
+  },
+  favoriteButton: {
+    right: 16,
+  },
+  roundButtonText: {
+    fontSize: 18,
+    color: '#FFFFFF',
+  },
+  sheet: {
+    flex: 1,
+    marginTop: -24,
+    backgroundColor: darkColors.card,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    paddingHorizontal: 20,
+    paddingTop: 20,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: '700',
+    color: darkColors.text,
+    textAlign: 'center',
+  },
+  author: {
+    fontSize: 14,
+    color: darkColors.muted,
+    textAlign: 'center',
+    marginTop: 2,
+    marginBottom: 18,
+  },
+  statsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+  },
+  servingsControl: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: darkColors.cardAlt,
+    borderRadius: 20,
+    paddingHorizontal: 6,
+    paddingVertical: 6,
+  },
+  servingsButton: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: darkColors.card,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: darkColors.border,
+  },
+  servingsButtonText: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: darkColors.accent,
+  },
+  servingsText: {
+    marginHorizontal: 10,
+    fontSize: 14,
+    fontWeight: '600',
+    color: darkColors.text,
+  },
+  badgeGroup: {
+    flexDirection: 'row',
+  },
+  badge: {
+    alignItems: 'center',
+    marginLeft: 16,
+  },
+  badgeIcon: {
+    fontSize: 16,
+  },
+  badgeText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: darkColors.muted,
+    marginTop: 2,
+  },
+  tabRow: {
+    flexDirection: 'row',
+    backgroundColor: darkColors.cardAlt,
+    borderRadius: 14,
+    padding: 4,
+    marginBottom: 16,
+  },
+  tab: {
+    flex: 1,
+    paddingVertical: 10,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+  tabActive: {
+    backgroundColor: darkColors.accent,
+  },
+  tabText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: darkColors.muted,
+  },
+  tabTextActive: {
+    color: '#FFFFFF',
+  },
+  listContent: {
+    paddingBottom: 100,
+  },
+  ingredientRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: darkColors.border,
+  },
+  ingredientHandle: {
+    fontSize: 16,
+    color: darkColors.border,
+    marginRight: 10,
+  },
+  ingredientName: {
+    flex: 1,
+    fontSize: 15,
+    color: darkColors.text,
+  },
+  ingredientAmount: {
+    fontSize: 14,
+    color: darkColors.muted,
+    marginRight: 12,
+  },
+  checkbox: {
+    width: 22,
+    height: 22,
+    borderRadius: 6,
+    borderWidth: 1.5,
+    borderColor: darkColors.border,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  checkboxChecked: {
+    backgroundColor: darkColors.accent,
+    borderColor: darkColors.accent,
+  },
+  checkboxMark: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    fontWeight: '700',
+  },
+  directionStep: {
+    flexDirection: 'row',
+    marginBottom: 16,
+  },
+  directionNumber: {
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    backgroundColor: darkColors.cardAlt,
+    color: darkColors.accent,
+    textAlign: 'center',
+    lineHeight: 26,
+    fontSize: 13,
+    fontWeight: '700',
+    marginRight: 12,
+  },
+  directionText: {
+    flex: 1,
+    fontSize: 15,
+    color: darkColors.text,
+    lineHeight: 21,
+  },
+  footer: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    paddingHorizontal: 20,
+    paddingTop: 12,
+    paddingBottom: 28,
+    backgroundColor: darkColors.card,
+    borderTopWidth: 1,
+    borderTopColor: darkColors.border,
+  },
+  addButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: darkColors.accent,
+    borderRadius: 14,
+    paddingVertical: 14,
+  },
+  addButtonPressed: {
+    backgroundColor: darkColors.accentPressed,
+  },
+  addButtonIcon: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: '700',
+    marginRight: 8,
+  },
+  addButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+});
